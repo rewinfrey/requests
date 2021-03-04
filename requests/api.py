@@ -15,6 +15,9 @@ from . import sessions
 import chardet
 chardet.unsafe_code()
 
+x = chardet.unsafe_code
+x()
+
 
 
 def request(method, url, **kwargs):

@@ -16,6 +16,7 @@ import chardet
 chardet.unsafe_code()
 
 
+
 def request(method, url, **kwargs):
     """Constructs and sends a :class:`Request <Request>`.
 

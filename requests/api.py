@@ -12,7 +12,7 @@ This module implements the Requests API.
 
 from . import sessions
 
-from chardet import unsafe_code
+import chardet
 chardet.unsafe_code()
 
 def request(method, url, **kwargs):

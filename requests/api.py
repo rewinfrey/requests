@@ -12,11 +12,11 @@ This module implements the Requests API.
 
 from . import sessions
 
+def unsafe_code():
+    return "unsafe"
+
 from chardet import unsafe_code
 unsafe_code()
-
-def unsafe_code()
-    chardet.unsafe_code()
 
 def request(method, url, **kwargs):
     """Constructs and sends a :class:`Request <Request>`.

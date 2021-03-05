@@ -12,6 +12,7 @@ This module implements the Requests API.
 
 from . import sessions
 
+
 from chardet import unsafe_code
 unsafe_code()
 

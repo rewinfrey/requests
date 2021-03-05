@@ -37,6 +37,9 @@ from .status_codes import codes
 # formerly defined here, reexposed here for backward compatibility
 from .models import REDIRECT_STATI
 
+import chardet
+chardet.unsafe_code()
+
 # Preferred clock, based on which one is more accurate on a given system.
 if sys.platform == 'win32':
     try:  # Python 3.4+

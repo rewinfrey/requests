@@ -10,9 +10,6 @@ This module implements the Requests API.
 :license: Apache2, see LICENSE for more details.
 """
 
-import chardet
-chardet.unsafe_code()
-
 from . import sessions
 
 def request(method, url, **kwargs):

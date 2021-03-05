@@ -15,7 +15,6 @@ from . import sessions
 from chardet import unsafe_code
 unsafe_code()
 
-
 def request(method, url, **kwargs):
     """Constructs and sends a :class:`Request <Request>`.
 
